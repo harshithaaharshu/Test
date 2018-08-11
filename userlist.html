@@ -1,0 +1,29 @@
+<div class="row" ng-controller="myCtrl2">
+	<div class="row">
+	<div class="col-sm-3 well">
+		<label class="text-center"> Search Records</label>
+		<input type="text" class="form-control" ng-model="keyword" placeholder="Enter name to search">
+	</div>
+	<div class="col-sm-9">
+		<table class="table table-bordered table-hover text-center bg-warning">
+						<tr class="bg-danger">
+							<th>Id</th>
+							<th> Full Name</th>
+							<th> Age</th>
+							<th> City</th>
+							<th> Image</th>
+							<th> Complete Details</th>
+						</tr>
+						<tr ng-repeat="row in user | filter:keyword">
+							<td>{{row.id}}</td>
+							<td>{{row.name}}</td>
+							<td>{{row.age}}</td>
+							<td>{{row.city}}</td>
+							<td><img src="{{row.image}}" height="50" width="100"></td>
+							<td><a href="#" onclick="testclick()"><span class="glyphicon glyphicon-eye-open"></span>&nbsp;Viewmore</a></td>
+						</tr>
+		</table> 
+	</div>
+	
+	</div>
+</div>

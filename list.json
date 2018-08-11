@@ -1,0 +1,9 @@
+[
+
+	{"id":"01", "name":"annie", "age":"25 years", "city":"bangalore","image":"image/annie.jpg"},
+	{"id":"02", "name":"jane", "age":"27 years", "city":"mangalore","image":"image/jane.jpg"},
+	{"id":"03", "name":"priya", "age":"22 years", "city":"mumbai","image":"image/priya.jpg"},
+	{"id":"04", "name":"Sneha", "age":"11 years", "city":"delhi","image":"image/sneha.jpg"},
+	{"id":"05", "name":"rabiya", "age":"16 years", "city":"gujarat","image":"image/rabiyaa.png"},
+	{"id":"06", "name":"madhu", "age":"18 years", "city":"kolalampur","image":"image/syeda.jpg"}
+]

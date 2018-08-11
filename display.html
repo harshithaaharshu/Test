@@ -1,0 +1,21 @@
+<div class="row" ng-controller="myCtrl2">
+	<div class="col-sm-12 text-center">
+		<table class="table table-bordered table-hover text-center">
+						<tr class="bg-primary">
+							<th>Id</th>
+							<th> Full Name</th>
+							<th> Age</th>
+							<th> City</th>
+							<th> Image</th>
+							<th> Complete Details</th>
+						</tr>
+						<tr ng-repeat="row in list | filter:keyword">
+							<td>{{row.id}}</td>
+							<td>{{row.name}}</td>
+							<td>{{row.age}}</td>
+							<td>{{row.city}}</td>
+							<td><img src="{{row.image}}" height="50" width="100"></img></td>
+						</tr>
+		</table> 
+	</div>
+</div>
