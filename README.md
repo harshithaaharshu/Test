@@ -38,13 +38,10 @@
 				alert("To get further details kindly login");
 			}
 		
-			function pageload()
-			{
-				alert("The page is being loaded");
-			}
+			
 		</script>
 	</head>
-	<body onload = pageload()>
+	<body>
 	<br>
 		<div class="container" ng-app="myApp">
 			<div class="row  text-center">
